@@ -1,0 +1,17 @@
+
+nav{
+  .logo {
+    height: 40px;
+  }
+
+  .btn-pay{
+    background: $btn-color-sub;
+    color: white;
+    padding: 8px 32px;
+
+    &:hover{
+      color: white;
+      opacity: .7;
+    }
+  }
+}

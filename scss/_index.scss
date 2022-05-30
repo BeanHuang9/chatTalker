@@ -1,0 +1,163 @@
+.platformBox{
+  h2{
+    font-size: 2rem;
+  }
+
+  ul{
+    li{
+      img{
+        width: 90px;
+        height: 90px;
+      }
+    }
+  }
+}
+
+.roleBox{
+  h2{
+    font-size: 2rem;
+  }
+  h3{
+    font-size: 20px;
+  }
+  ul{
+    li{
+      .cardItem{
+        border-radius: 0.75rem;
+        img{
+          border-top-left-radius: 0.75rem;
+          border-top-right-radius: 0.75rem;
+        }
+        .card-body{
+          h3{
+            font-size: 1rem;
+          }
+          p{
+            font-size: 1rem;
+            color: $lightB-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+.btn-pay-main{
+  background: $btn-color-main;
+  color: white;
+  padding: 12px 35px;
+
+  &:hover{
+    color: white;
+    opacity: .7;
+  }
+}
+
+
+
+
+.experienceBox{
+  .experienceText{
+    position: relative;
+    top: -120px;
+
+    h3{
+      font-size: 2rem;
+      color: $lightB-color;
+    }
+  }
+}
+
+.contourText{
+  h3{
+    font-size: 2rem;
+  }
+  p{
+    font-size: 1.125rem;
+    color: $lightB-color;
+  }
+}
+
+.contourBox{
+  ul{
+    li{
+      .card{
+        border-radius: 0.75rem;
+      }
+    }
+  }
+  .card-body{
+    h3{
+      font-size: 1.125rem;
+    }
+    p{
+      font-size: 1rem;
+      color: $lightB-color;
+    }
+  }
+
+}
+
+
+
+
+
+.assessBox{
+  h3{
+    font-size: 2rem;
+    color: $lightB-color;
+  }
+
+  .assessCard{
+    padding-top: 2rem;
+    li{
+      img.userImg{
+        width: 80px;
+        height: 80px;
+        left: 2rem;
+        top: -3rem;
+      }
+      
+
+      .assessText{
+        padding: 2rem;
+        padding-top: 3rem;
+        border-radius: 0.75rem;
+
+        hr{
+          background-color: #DDD;
+        }
+
+        h3{
+          font-size: 1rem;
+          color: $lightB-color;
+        }
+      }
+    }
+    
+  }
+
+  .dots{
+    li{
+      width: 10px;
+      height: 10px;
+
+      &:last-child{
+        width: 15px;
+      }
+    }
+  }
+}
+
+
+.rightBall::before {
+  content: "";
+  background: url(https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/ball02.svg);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 350px;
+  position: absolute;
+  top: 75%;
+  right: 0;
+  z-index: -1;
+}

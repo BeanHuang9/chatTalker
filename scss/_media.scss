@@ -1,0 +1,48 @@
+@media (max-width: 767px){
+  .experienceBox{
+    .experienceText{
+      padding-bottom: 60px;
+      top: 0px;
+
+      h3{
+        font-size: 1.25rem;
+        color: $lightB-color;
+      }
+    }
+  }
+
+  .bannerBg {
+    min-height: 500px;
+    border-radius: 0px 0px 0px 200px;
+  }
+
+  .bannerBox header {
+    margin-top: 4rem;
+  }
+
+  .ph-height{
+    height: 500px;
+  }
+
+  .programBox {
+    margin-top: 3rem; 
+  }
+  
+  img.ballYle{
+    width: 50%!important;
+  }
+
+  .bg-Mobile{
+    background-color: white;
+    border-bottom: 2px solid #F5CA52;
+  }
+
+  .borTopM h1{
+    padding-top: 4rem;
+  }
+
+  .assessCard li{
+    margin-bottom: 1rem;
+  }
+
+}
